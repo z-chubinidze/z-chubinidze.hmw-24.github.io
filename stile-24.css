@@ -1,0 +1,968 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+@font-face{
+    font-family:'HindVadodara-Regular';
+    src:url(./fonts/HindVadodara-Regular.ttf)
+}
+@font-face{
+    font-family:'PlayfairDisplay-Regular';
+    src:url(./fonts/PlayfairDisplay-Regular.ttf)
+}
+@font-face{
+    font-family:'Roboto-Regular';
+    src:url(./fonts/Roboto-Regular.ttf)
+}
+@media only screen and  (max-width: 992px){
+    .burger{
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(291deg) brightness(107%) contrast(108%) !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar-collapse{
+        background-color: #eca787;
+    }
+    .left-cont{
+        margin-top: 40px !important;
+    }
+    h1{
+        font-size: 60px !important;
+    }
+    h2{
+        font-size: 60px !important;
+    }
+    .Lorem{
+        font-size: 13px !important;
+    }
+    .mark-word::after{
+        bottom: 20px !important;
+    }
+    .elipse img{
+       
+        width: 100% !important;
+    }
+    .elipse{
+        top:80px !important;
+        right:-7px !important;
+    }
+    .business{
+        font-size: 28px !important;
+    }
+    .What{
+        font-size: 28px !important;
+    }
+    .business-1{
+        top:30px  !important;
+    }
+    .rectangle-1-cont{
+        height: 370px !important; 
+    }
+
+    .mark-word-3::after{
+        left: 437px !important;
+        bottom: 0px !important;
+        width: 23% !important;
+        height: 100% !important;
+    }
+    .mark-word-2::after{
+        bottom: 10px !important;
+    }
+    .image-4{
+        width: 73% !important;
+        height: 165px !important;
+    }
+    .image-3{
+        width: 25% !important;
+    }
+    .image-2{
+        left: 30px !important;
+        top: 50px !important;
+        width: 85% !important;
+    }
+    .image-2 img{
+        width: 100% !important;
+    }
+    .second-carousel-1{
+        left:50px !important;
+        top: 126px !important;
+    }
+    .Design{
+        font-size: 10px !important;
+    }
+    .Design-1{
+        font-size: 14px !important;
+        margin: 0px !important;
+    }
+    .btn-transparent{
+        font-size: 10px !important;
+
+    }
+    .buttons-2{
+        left: 110px !important;
+        top: 265px !important;
+    }
+    .buttons-1{
+        left: 40px !important;
+        top: 265px !important;
+    }
+    .about-1-cont{
+        left: 32px !important;
+        top: 0px !important;
+        
+    }
+    .second-carousel-cont{
+        height: 450px !important;
+    }
+    .About-1{
+        font-size: 36px !important;
+    }
+    .Experts{
+        font-size: 36px !important;
+    }
+    .lorem-cont{
+        left: 401px !important;
+        top: 11px !important;
+    }
+    .Lorem-3{
+        font-size: 14px !important;
+    }
+
+    .first-card{
+        padding: 20px 10px !important;
+    }
+
+}
+@media only screen and  (max-width: 425px){
+    .elipse-1{
+    width: 100% !important;
+    left:18px !important;
+    top:70px !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .elipse-1 img{
+        width: 80% !important;
+    }
+    .Vector-2{
+    width: 83% !important;
+    left:70px !important;
+    top:0px !important;
+    }
+    .Vector-2 img{
+        width: 75% !important;
+    }
+    .image-1{
+        width: 100% !important;
+        left: 20px !important;
+        top: 50px !important;
+    }
+    .image-1 img{
+        width: 93% !important;
+    }
+    .business{
+        font-size: 16px !important;
+    }
+    .What{
+        font-size: 16px !important;
+    }
+    .figures{
+        height: 420px !important;  
+    }
+    .first-card{
+        padding: 10px !important;
+    }
+    .Design{
+        font-size: 7px !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .Design-1{
+        font-size:12px !important;
+    }
+    .Lorem-Ipsum{
+        font-size: 7px !important;
+        padding-bottom: 0px !important;
+        padding-right: 10px !important;
+    }
+    .globe{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .business-1{
+        top:15px  !important;
+    }
+    .second-carousel{
+        left: 85px !important;
+        top: 60px !important;
+    }
+    .buttons-mob{
+        left: -40px !important;
+        top: 80px !important;
+    }
+    .buttons-mob-1{
+        left: -80px !important;
+        top: 80px !important;
+    }
+    .rectangle-1-cont{
+        height: 230px !important; 
+    }
+    .Lorem {
+        font-size: 12px !important;
+    }
+    .Ellipse-1{
+        left: 7px !important;
+        top: 20px !important;
+    }
+    .Ellipse-1 img{
+        width:90% !important;
+    }
+    .vector-3 img{
+        width: 100% !important;
+    }
+    .image-2 img{
+        width: 117% !important;
+    }
+    .image-2{
+        left: 12px !important;
+        top: 30px !important;
+    }
+    .figures-2{
+        height:410px !important;
+    }
+    .about-cont{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .About{
+        font-size: 28px !important;
+    }
+    .about-1-cont{
+        top: 10px !important;
+    }
+    .About-1{
+        font-size: 18px !important;
+    }
+    .Experts{
+        font-size: 18px !important;
+    }
+    .rectangle-2 img{
+        width: 100% !important;
+    }
+    .Fake{
+        font-size: 28px !important;
+    }
+    .mark-word-1::after{
+        bottom: 10px !important;
+    }
+    .Testimonials{
+        font-size: 28px !important;
+    }
+    .Clients{
+        font-size: 28px !important;
+    }
+    .mark-word-2::after {
+        bottom: 5px !important;
+    }
+    .mark-word-3::after{
+        left:256px !important;
+    }
+    .Lorem-Ipsum-2 {
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+    .Lorem-3{
+        font-size: 7px !important;
+    }
+    .Lorem-Ipsum-3{
+        font-size: 14px !important;
+    }
+    .lorem-cont{
+        left: 249px !important;
+        top: 10px !important;
+    }
+    .image-4 {
+        width: 73% !important;
+        height: 76px !important;
+    }
+    .btn-transparent {
+        font-size: 5px !important;
+    }
+    .Design-1 {
+        font-size: 8px !important;
+    }
+    .second-carousel-1 {
+        left: 40px !important;
+        top: 70px !important;
+    }
+    .buttons-1 {
+        left: 0px !important;
+        top: 138px !important;
+    }
+    .buttons-2 {
+        left: 70px !important;
+        top: 138px !important;
+    }
+    #button-addon2 {
+        padding: 12px 32px !important;
+    }
+    .Lorem-2{
+        font-size: 12px !important;
+    }
+    .Get-Started {
+        margin-top: 10px !important;
+        padding: 10px 50px !important;
+    }
+    .second-carousel-cont {
+        height: 250px !important;
+    }
+    .input-group{
+        width: 100% !important;
+    }
+
+}
+@media only screen and  (max-width: 375px){
+    .Lorem {
+        font-size: 10px !important;
+    }
+    .Get-Started {
+        font-size: 15px !important;
+    }
+    .Lorem-Ipsum {
+        font-size: 6px !important;
+        padding-right: 0px !important;
+    }
+    .business-1 {
+        top: 6px !important;
+    }
+    .second-carousel {
+        top: 48px !important;
+    }
+    .buttons-mob {
+        top: 40px !important;
+    }
+    .buttons-mob-1 {
+        top: 40px !important;
+    }
+    .about-cont {
+        padding-top: 0px !important;
+    }
+    .Design {
+        font-size: 6px !important;
+    }
+    .Design-1{
+        font-size:12px !important;
+    }
+    .first-card {
+        padding: 5px !important;
+    }
+    .lorem-cont {
+        left: 215px !important;
+        top: 5px !important;
+    }
+    .second-carousel-1 {
+        left: 25px !important;
+        top: 59px !important;
+    }
+    .buttons-2 {
+        top: 123px !important;
+    }
+    #button-addon2 {
+        padding: 12px 27px !important;
+    }
+    .buttons-1 {
+        top: 123px !important;
+    }
+    .Lorem-Ipsum-2 {
+        font-size: 8px !important;
+    }
+    .Lorem-Ipsum-3 {
+        font-size: 12px !important;
+    }
+}
+@media only screen and  (max-width: 320px){
+    .help{
+        font-size: 45px !important;
+    }
+    .grow{
+        font-size: 45px !important;
+    }
+    .Lorem {
+        font-size: 8px !important;
+    }
+    .Get-Started {
+        font-size: 10px !important;
+    }
+    .figures {
+        height: 350px !important;
+    }
+    .buttons-mob-1 {
+        height: 28px !important;
+        width: 28px !important;
+    }
+    .buttons-mob {
+        height: 28px !important;
+        width: 28px !important;
+    }
+    .second-carousel {
+        left: 71px !important;
+    }
+    .What {
+        font-size: 12px !important;
+    }
+    .business {
+        font-size: 12px !important;
+    }
+    .second-carousel {
+        top: 37px !important;
+    }
+    .rectangle-1-cont {
+        height: 180px !important;
+    }
+    .figures-2 {
+        height: 350px !important;
+    }
+    .Lorem-2 {
+        font-size: 10px !important;
+    }
+    .About {
+        font-size: 20px !important;
+    }
+    .Fake {
+        font-size: 20px !important;
+    }
+    .About-1 {
+        font-size: 15px !important;
+    }
+    .Experts {
+        font-size: 15px !important;
+    }
+    .lorem-cont {
+        left: 185px !important;
+    }
+    .Lorem-3 {
+        font-size: 6px !important;
+    }
+    .Design-cont{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .Design {
+        font-size: 4px !important;
+    }
+    .Design-1{
+        font-size:12px !important;
+    }
+    .second-carousel-1 {
+        top: 50px !important;
+    }
+    .buttons-2 {
+        height: 28px !important;
+        width: 28px !important;
+        top: 104px !important;
+    }
+    .buttons-1 {
+        height: 28px !important;
+        width: 28px !important;
+    }
+    .buttons-1 {
+        top: 104px !important;
+    }
+    .second-carousel-cont {
+        height: 180px !important;
+    }
+    .Testimonials {
+        font-size: 20px !important;
+    }
+    .Clients {
+        font-size: 20px !important;
+    }
+    .Lorem-Ipsum-2 {
+        font-size: 6px !important;
+    }
+    .Lorem-Ipsum-3 {
+        font-size: 10px !important;
+    }
+    #button-addon2 {
+        padding: 12px 27px !important;
+    }
+    .Texas-cont{
+        left: 12px !important;
+        top: 12px !important;
+        padding: 7px 40px 9px 10px !important;
+    }
+    .Texas {
+        font-size: 12px !important;
+        margin-bottom: 5px !important;
+    }
+    .mark-word-1::after {
+        bottom: 7px !important;
+    }
+    .mark-word-3::after {
+        left: 182px !important;
+    }
+}
+.photo{
+    z-index: -1;
+}
+.Agency{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #331B3B;
+}
+.elips{
+    border: 2px solid rgba(51, 27, 59, 0.64);
+    transform: rotate(30.5deg);
+    width: 43.61px;
+    height: 49.61px;
+    border-radius: 100%;
+}
+.Home{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #331B3B;
+}
+.Home:focus  {
+    color: #331B3B !important;
+    font-weight: 600 !important;
+}
+.Home:hover {
+    margin-top: -5px;
+    width: 50% ;
+    color: #331B3B !important;
+    font-weight: 600 !important;
+    border-bottom: 5px solid #FDC221 !important;
+}
+
+h1{
+    font-family:'HindVadodara-Regular';;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 87px ;
+    line-height: 99.8%;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+h2{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 87px ;
+    line-height: 99.8%;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    
+}
+.Get-Started{
+    padding: 22px 49px;
+    background-color: #331B3B;
+    border-radius: 10px;
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 137.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 31px;
+}
+.Get-Started:hover{
+    color: #FFFFFF !important;
+    background-color: #331B3B !important;
+}
+.elipse-1{
+    z-index: 1;
+}
+.Vector-2{
+    z-index: 2;
+}
+.image-1{
+    z-index: 3;
+}
+.elipse{
+    z-index: 1;
+}
+.Rectangle-1{
+    z-index: 2;
+}
+.text{
+    z-index: 3;
+}
+.carousel-cont{
+    z-index: 3;
+}
+.rectangle-2{
+z-index: -1;
+}
+.Lorem{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.What {
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.business{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;   
+}
+.globe{
+    background:#FFDED4;
+    border-radius: 10px;
+    width: 52px;
+    height: 48px;
+}
+.Lorem-Ipsum{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145.3%;
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.Design{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 137.3%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #331B3B;
+    margin-top: 13px;
+    margin-bottom: 6px;
+}
+.Design-1{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 137.3%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #331B3B;
+    margin-top: 13px;
+}
+.first-card{
+    background: #FFFFFF ;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.buttons{
+    height: 34px !important;
+    width: 34px !important;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    border-radius: 100%;
+    background-color: transparent !important;
+}
+.buttons-mob-1{
+    height: 34px ;
+    width: 34px ;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    border-radius: 100%;
+    background-color: transparent !important; 
+}
+.buttons-mob{
+    height: 34px;
+    width: 34px;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    border-radius: 100%;
+    background-color: transparent !important; 
+}
+.buttons-1{
+    height: 34px ;
+    width: 34px ;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    border-radius: 100%;
+    background-color: transparent !important;
+}
+.buttons-2{
+    height: 34px ;
+    width: 34px ;
+    border: 2px solid rgba(0, 0, 0, 0.33);
+    border-radius: 100%;
+    background-color: transparent !important; 
+}
+.icons{
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(253deg) brightness(96%) contrast(103%);
+    width: 14px;
+    height: 14px;
+}
+.buttons:focus{
+    border: 2px solid #000000;
+    
+}
+.buttons:focus.icons{
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(253deg) brightness(96%) contrast(103%);
+}
+.About{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.image-2{
+    left: 30px;
+    top: 30px;
+    width: 49%;
+}
+.image-2 img{
+    width: 100%;
+}
+.About-1{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Fake{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 106.3%;
+    letter-spacing: -0.01em;
+    color: #331B3B;  
+}
+.Lorem-2{
+    
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.Experts{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 106.3%;
+    letter-spacing: -0.01em;
+    color: #331B3B;  
+}
+.Lorem-3{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.mark-word::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 30px;
+    width: 96%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(
+    to bottom,
+    transparent 89%, #FDC221 11%
+ );
+}
+
+.mark-word-1::after{
+    content: '';
+    position: absolute;
+    left:0px;
+    bottom: 18px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(
+    to bottom,
+    transparent 89%, #FDC221 11%
+ );
+}
+.mark-word-2::after{
+    content: '';
+    position: absolute;
+    left:0px;
+    bottom: 18px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(
+    to bottom,
+    transparent 89%, #FDC221 11%
+ );
+}
+.mark-word-3::after{
+    content: '';
+    position: absolute;
+    left: 440px;
+    bottom: 0px;
+    width: 22%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(
+    to bottom,
+    transparent 82%, #FDC221 18%
+ );
+}
+.btn-transparent{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.3%;
+    color: #331B3B;
+}
+
+.Testimonials{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110.8%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Clients{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 110.8%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.Lorem-Ipsum-2{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    color: #331B3B;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+.black-background{
+    background-image: url(./images/Rectangle-3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    
+}
+.Dream{
+    font-family:'PlayfairDisplay-Regular';
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.Lorem-Ipsum-3{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.Touch{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.form-control{
+    padding: 13px !important;
+    background: transparent !important;
+}
+::placeholder{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+
+}
+#button-addon2{
+    padding: 14px 52px ;
+    background: #FFFFFF;
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Texas{
+    font-family:'Roboto-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 134.8%;
+    color: #414141;
+}
+h5{
+    font-family:'Roboto-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 134.8%;
+    color: #414141;
+}
+.Larger-Map{
+    font-family:'HindVadodara-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 159.3%;
+    color: #51A0DC;
+    text-decoration: none;
+}
